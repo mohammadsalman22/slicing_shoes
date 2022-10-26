@@ -31,7 +31,7 @@ class MyShoesCard extends StatelessWidget {
               BoxShadow(
                 blurRadius: 4,
                 color: Colors.black.withOpacity(0.25),
-                blurStyle: BlurStyle.outer,
+                blurStyle: BlurStyle.inner,
                 offset: const Offset(0, 4),
               ),
             ],
