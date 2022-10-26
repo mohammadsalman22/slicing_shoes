@@ -57,16 +57,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     children: [
                       Center(
                         child: Padding(
-                          padding: const EdgeInsets.all(15),
+                          padding: const EdgeInsets.all(5),
                           child: Container(
                             decoration: BoxDecoration(
-                              color: Colors.white,
+                              color: const Color(0XFFC4C4C4),
                               shape: BoxShape.circle,
                               boxShadow: [
                                 BoxShadow(
                                   blurRadius: 4,
                                   color: Colors.black.withOpacity(0.25),
-                                  blurStyle: BlurStyle.outer,
+                                  blurStyle: BlurStyle.inner,
                                   offset: const Offset(0, 4),
                                 ),
                               ],
